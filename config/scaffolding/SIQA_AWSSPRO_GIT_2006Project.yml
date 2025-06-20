@@ -8,6 +8,14 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 services:
+- serviceName: project.siqa_awsspro_git_2006.integrations:GitSyncFlow
+  packages:
+  - name: SIQA_AWSSPRO_GIT_2006Project
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2061
 - serviceName: project.siqa_awsspro_git_2006.integrations:refData1
   packages:
   - name: SIQA_AWSSPRO_GIT_2006Project
