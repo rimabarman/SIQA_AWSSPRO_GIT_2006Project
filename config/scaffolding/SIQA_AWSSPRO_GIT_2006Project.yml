@@ -7,6 +7,15 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+services:
+- serviceName: project.siqa_awsspro_git_2006.integrations:refData1
+  packages:
+  - name: SIQA_AWSSPRO_GIT_2006Project
+    version: "1.0"
+- serviceName: project.siqa_awsspro_git_2006.referencedata:refData1
+  packages:
+  - name: SIQA_AWSSPRO_GIT_2006Project
+    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
