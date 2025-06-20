@@ -44,13 +44,7 @@ services:
     version: "1.0"
   - name: TPP_services_in_FCS
     version: "1.0"
-- serviceName: project.siqa_awsspro_git_2006.integrations:GitSyncFlow
-  packages:
-  - name: SIQA_AWSSPRO_GIT_2006Project
-    version: "1.0"
-  - name: TPP_services_in_FCS
-    version: "1.0"
-- serviceName: project.siqa_awsspro_git_2006.integrations:deepclonetest
+- serviceName: project.siqa_awsspro_git_2006.integrations:Copy_deepclonetest
   packages:
   - name: SIQA_AWSSPRO_GIT_2006Project
     version: "1.0"
@@ -68,6 +62,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_awsspro_git_2006.integrations:GitSyncFlow
+  packages:
+  - name: SIQA_AWSSPRO_GIT_2006Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: project.siqa_awsspro_git_2006.integrations:deepclonetest
+  packages:
+  - name: SIQA_AWSSPRO_GIT_2006Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: project.siqa_awsspro_git_2006.integrations:refData1
   packages:
   - name: SIQA_AWSSPRO_GIT_2006Project
